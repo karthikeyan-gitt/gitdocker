@@ -1,4 +1,4 @@
-FROM centos:centos7
+FROM docker.io/library/centos:centos7
 
 RUN yum install -y httpd
 
